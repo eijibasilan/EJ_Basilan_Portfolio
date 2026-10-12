@@ -1,16 +1,25 @@
-# React + Vite
+# Edgar Joseph Basilan | Full-Stack Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio featuring selected client, service, learning, and rental management systems. Built with React and Vite; the site has no backend or database connection.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm install
+npm run dev
+```
 
-## React Compiler
+## Verify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```sh
+npm run build
+npm run lint
+```
 
-## Expanding the Oxlint configuration
+## Deploy with Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Import this GitHub repository in Vercel. Use the Vite preset, `npm run build` as the build command, and `dist` as the output directory. No environment variables are required.
+
+## Update content
+
+Edit `src/portfolio.js` for project, skills, experience, education, certification, and contact data. The project interface artwork is illustrative and is not a screenshot of the live systems.
